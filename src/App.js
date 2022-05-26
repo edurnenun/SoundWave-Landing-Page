@@ -1,13 +1,18 @@
 import './App.css';
+import Footer from './components/Footer.js';
+import Main from './components/Main.js';
+import Navigation from './components/Navigation.js'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/*<img src={logo} className="App-logo" alt="logo" />*/}
         
+        <Navigation />
         
       </header>
+      <Main />
+      <Footer />
     </div>
   );
 }
