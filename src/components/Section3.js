@@ -9,7 +9,7 @@ import JoinForm from "./JoinForm.js";
 
 const Section3 = () => (
   <div className="section3">
-    <h1>Join the fun.</h1>
+    <h1 className="join-title">Join the <span>fun.</span></h1>
     <JoinForm />
     
   </div>

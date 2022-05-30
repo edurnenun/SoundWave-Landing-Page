@@ -21,6 +21,7 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  font-family: Poppins;
 }
  
 
@@ -116,6 +117,42 @@ body {
 
 .section3 {
   height: 100vh;
+}
+
+.join-title {
+  font-family: Poppins;
+  font-size: 77px;
+  text-align: left;
+  margin-left: 35px;
+}
+
+span {
+  color: rgb(243, 11, 139);
+}
+
+.container-form {
+  
+  height: 55%;
+  width: 80%;
+  border-radius: 15px;
+  background-color: #202027;
+  padding: 0 40px 20px 40px;
+  text-align: left;
+}
+
+.joinForm, .joinForm div, .form-label, .form-control {
+  background-color: #202027;
+}
+
+.form-label{
+  margin-top: 20px;
+  font-family: Poppins;
+}
+
+.btn {
+  margin-top: 30px;
+  background-color: #1762A7;
+  font-family: Poppins;
 }
 
 /*Footer*/
