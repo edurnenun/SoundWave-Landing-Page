@@ -5,16 +5,25 @@ import Logo from '../images/logo.png';
 
 const Navigation = () => {
     return (
-        <Navbar>
+        <Navbar className='navigation' variant="dark"  sticky="top">
+            <Container className='sticky-navbar'>
+            <Navbar.Brand href="#home">
+            <img src={Logo} className="App-logo" alt="logo" /></Navbar.Brand>
+            <Navbar.Brand href="#home">Soundwave</Navbar.Brand>
+            <Nav.Link className='nav-link' href="#Discover">Discover</Nav.Link>
+            <Nav.Link href="#Join">Join</Nav.Link>
+            </Container>
+        </Navbar>
+    /*<Navbar bg="dark" variant="dark" className="navigation">
   <Container>
-    <img src={Logo} className="App-logo" alt="logo" />
-    <Navbar.Brand href="#home">Soundwave</Navbar.Brand>
+    <a><img src={Logo} className="App-logo" alt="logo" /></a>
+    <a><Navbar.Brand href="#home">Soundwave</Navbar.Brand></a>
     
-        <Nav.Link href="#Discover">Discover</Nav.Link>
-        <Nav.Link href="#Join">Join</Nav.Link>
+    <a><Nav.Link href="#Discover">Discover</Nav.Link></a>
+    <a><Nav.Link href="#Join">Join</Nav.Link></a>
     
   </Container>
-</Navbar>
+</Navbar>*/
     )
 }
 

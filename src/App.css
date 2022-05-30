@@ -1,10 +1,198 @@
-.footer{
-    margin-top: 1rem;
-    padding: 1rem;
-    color: white;
-    background-color: #202027;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: #2F303A;
+  width: 100%;
+}
+
+html, 
+body {
+  font-family: Poppins;
+  font-size: 1.2 rem;
+  background-color: #2F303A;
+  color: white;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ 
+
+/*Navigation*/
+.navigation {
+  /*background-color: #202027;*/
+  height: 10vh;
+  color: whitesmoke;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.nav-link {
+  color: whitesmoke;
+}
+
+/*Hero*/
+
+.hero {
+  height: 100vh;
+  padding: 0 50px 80px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: left;
+}
+
+.hero h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.hero-button {
+  width: 100px;
+  background-color: #1762A7;
+  border-radius: 7px;
+}
+
+/*Section 2*/
+.discover {
+  height: 100vh;
+  padding: 30px;
+}
+
+.discover h1 {
+  font-size: 50px;
+  text-align: left;
+}
+
+.div-discover-icons {
+  display: flex;
+  height: 50px;
+
+}
+
+.discover-card-icon {
+  width: 70px;
+  height: 70px;
+  margin: 10px;
+  background-color: #202027;
+  
+}
+
+.discover-icons {
+  background-color: #202027;
+  padding-top: 10px;
+  height: 40px;
+  
+}
+.p-icons {
+  background-color: #202027;
+}
+
+.discover-p {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.covers {
+  width: 65%;
+  align-self: center;
+  margin-left: 60px;
+}
+
+/*Section 3*/
+
+.section3 {
+  height: 100vh;
+}
+
+/*Footer*/
+.footer {
+  height: 60px;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #202027;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-decoration: none;
+}
+
+.footer ul {
+  background-color: #202027;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.list-unstyled {
+  background-color: #202027;
+}
+
+.list-unstyled a {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: #202027;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-icon {
+  height: 10px;
+  background-color: #202027;
+}
+
+/*
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
   }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/

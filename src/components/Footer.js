@@ -12,11 +12,11 @@ const Footer = () => (
               <li className="list-unstyled">
                 <a href="#!">Contact</a>
               </li>
-              <li className="list-unstyled">
-              <img src={Twitter} className="App-Twitter" alt="Twitter" /><a href="#!">Twitter</a>
+              <li className="list-unstyled social">
+              <img src={Twitter} className="app-icon" alt="Twitter" /><a href="#!">Twitter</a>
               </li>
-              <li className="list-unstyled">
-              <img src={Facebook} className="App-Facebook" alt="Facebook" /><a href="#!">Facebook</a>
+              <li className="list-unstyled social">
+              <img src={Facebook} className="app-icon" alt="Facebook" /><a href="#!">Facebook</a>
               </li>
             </ul>
   </div>
