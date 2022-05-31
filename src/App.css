@@ -1,65 +1,90 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
 * {
   margin: 0;
   padding: 0;
   color: white;
   background-color: #2F303A;
-  width: 100%;
 }
 
 html, 
 body {
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
   font-size: 1.2 rem;
   background-color: #2F303A;
   color: white;
 }
 
 .App {
-  min-height: 100vh;
+  min-height: 300vh;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-family: Poppins;
+  font-family: "Poppins", sans-serif;
 }
  
 
 /*Navigation*/
 .navigation {
   /*background-color: #202027;*/
-  height: 10vh;
+  /*height: 10vh;*/
   color: whitesmoke;
+  width: 100%;
   position: sticky;
   top: 0;
   left: 0;
 }
 
 .sticky-navbar {
-  position: sticky;
-  top: 0;
-  left: 0;
+  padding-right: 10%;
 }
 
 .nav-link {
   color: whitesmoke;
 }
 
+.nav-link :hover {
+  color: #202027;
+}
+
+
+
 /*Hero*/
 
 .hero {
   height: 100vh;
-  padding: 0 50px 80px 50px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   text-align: left;
 }
 
+.conatiner-circulo-azul-peq {
+  width: 20%;
+  height: 20%;
+}
+.circulo-azul-peq {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  background: #3457b21a;
+  top: -200px;
+  left: 120px;
+  position: relative;
+}
+
 .hero h1 {
-  font-size: 50px;
+  max-width: 300px;
+  font-size: 2.5em;
   text-align: left;
 }
+
 
 .hero-button {
   width: 100px;
@@ -67,14 +92,43 @@ body {
   border-radius: 7px;
 }
 
+.hero-button :hover {
+  background-color: #2180d8;
+}
+
+.hero-button :focus {
+  background-color: #2796ff;
+}
+
+.circulo-morado {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  background-color: #bc3a801a;
+  top: 30vh;
+  left: -250px;
+  position: relative;
+}
+
+.circulo-azul-big {
+  width: 30%;
+  height: 30%;
+  border-radius: 50%;
+  background-color: #3457b21a;
+  top: 30vh;
+  right: 15vh;
+  position: relative;
+}
+
 /*Section 2*/
 .discover {
   height: 100vh;
-  padding: 30px;
+  padding: 10%;
 }
 
 .discover h1 {
-  font-size: 50px;
+  max-width: 300px;
+  font-size: 2.5em;
   text-align: left;
 }
 
@@ -85,9 +139,9 @@ body {
 }
 
 .discover-card-icon {
-  width: 70px;
+  width: 50%;
   height: 70px;
-  margin: 10px;
+  margin: 5%;
   background-color: #202027;
   
 }
@@ -105,12 +159,17 @@ body {
 .discover-p {
   margin-top: 50px;
   text-align: left;
+  
 }
 
 .covers {
-  width: 65%;
+  width: 70%;
   align-self: center;
-  margin-left: 60px;
+  margin-left: 20%;
+}
+
+.covers img {
+  width: 100%;
 }
 
 /*Section 3*/
@@ -120,10 +179,11 @@ body {
 }
 
 .join-title {
-  font-family: Poppins;
-  font-size: 77px;
+  max-width: 200px;
+  font-size: 2.5em;
   text-align: left;
-  margin-left: 35px;
+  margin-left: 10%;
+  font-weight: 900;
 }
 
 span {
@@ -131,8 +191,7 @@ span {
 }
 
 .container-form {
-  
-  height: 55%;
+  height: 60%;
   width: 80%;
   border-radius: 15px;
   background-color: #202027;
@@ -145,7 +204,7 @@ span {
 }
 
 .form-label{
-  margin-top: 20px;
+  margin-top: 10%;
   font-family: Poppins;
 }
 
@@ -158,13 +217,13 @@ span {
 /*Footer*/
 .footer {
   height: 60px;
+  width: 100%;
   margin-top: 1rem;
   padding: 1rem;
   background-color: #202027;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
   text-decoration: none;
 }
 

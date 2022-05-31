@@ -1,5 +1,6 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import "@fontsource/poppins";
 import Footer from './components/Footer.js';
 import Main from './components/Main.js';
 import Navigation from './components/Navigation.js'
