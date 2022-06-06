@@ -7,11 +7,11 @@ const Navigation = () => {
     return (
         <Navbar sticky="top" className='navigation' variant="dark" >
             <Container className='sticky-navbar'>
-              <Navbar.Brand href="#home">
-              <img src={Logo} className="app-logo" alt="logo" /></Navbar.Brand>
-              <Navbar.Brand href="#home">Soundwave</Navbar.Brand>
-              <Nav.Link className='nav-link' href="#Discover">Discover</Nav.Link>
-              <Nav.Link href="#Join">Join</Nav.Link>
+              <a> <Navbar.Brand Link className='brand' href="#home">
+              <img src={Logo} className="app-logo" alt="logo" /></Navbar.Brand></a>
+              <a><Navbar.Brand Link href="#home">Soundwave</Navbar.Brand></a>
+              <a><Nav.Link className='nav-link my-2 my-lg-0' href="#Discover">Discover</Nav.Link></a>
+              <a><Nav.Link className='nav-link my-2 my-lg-0' href="#Join">Join</Nav.Link></a>
             </Container>
         </Navbar>
     /*<Navbar bg="dark" variant="dark" className="navigation">

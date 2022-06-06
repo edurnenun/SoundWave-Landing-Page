@@ -7,7 +7,7 @@ const CirculoAzulPeq = () => (
     <div className="circulo-azul-peq">
  
     </div>
-    </Container>
+  </Container>
   );
 
 export default CirculoAzulPeq;
